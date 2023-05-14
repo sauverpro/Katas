@@ -6,6 +6,7 @@ function likes(names) {
     if (numLikes === 0) {
       return "no one likes this";
     } else if (numLikes === 1) {
+
       return `${names[0]} likes this`;
     } else if (numLikes === 2) {
       return `${names[0]} and ${names[1]} like this`;
@@ -13,7 +14,7 @@ function likes(names) {
       return `${names[0]}, ${names[1]} and ${names[2]} like this`;
     } else {
       let numOthers = numLikes - 2;
-      return `${names[0]}, ${names[1]} and ${numOthers} others like this`;
+      return `${names[0]}, ${names[1]} and ${numOthers} others like this`; // displaying the number of likes
     }
   }
 console.log(likes([])); // "no one likes this"
