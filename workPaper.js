@@ -5,12 +5,10 @@ function calculateBlankPagesNeeded(n, m) {
     }
     // Calculate the total number of pages needed
     const totalPagesNeeded = n * m;
-  
     // Calculate the number of blank pages needed
     return totalPagesNeeded;
   }
   const numberOfClassmates = 5;
 const numberOfPages = 5;
-
 const blankPages = calculateBlankPagesNeeded(numberOfClassmates, numberOfPages);
 console.log("Number of blank pages needed:", blankPages);
