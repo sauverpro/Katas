@@ -10,7 +10,6 @@ function isPrime(number) {
         return false;
       }
     }
-  
     return true;
   }
   const num = 500387023;
